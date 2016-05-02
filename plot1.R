@@ -12,7 +12,7 @@
 
 library(ggplot2)
 setwd("c:/users/pae/downloads")
-
+windows.options(width=480,height=480)
 datafile <-data.frame()
 datafile <- read.csv("household_power_consumption.txt",header=TRUE,sep=";")
 Start_date <-as.Date("01/02/2007")
